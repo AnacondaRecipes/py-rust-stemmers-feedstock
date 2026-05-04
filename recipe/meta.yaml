@@ -41,8 +41,17 @@ about:
   doc_url: https://github.com/qdrant/py-rust-stemmers
   summary: Fast and parallel snowball stemmer
   description: |
-    Python bindings for the Rust snowball-stemmers crate, providing fast and
-    parallel implementations of the Snowball stemming algorithms.
+    py-rust-stemmers is a high-performance Python wrapper around the
+    rust-stemmers library, utilizing the Snowball stemming algorithm. It
+    allows for efficient stemming of words with support for parallel
+    processing, making it a useful tool for text processing tasks.
+
+    Features:
+      - Uses the Snowball stemming algorithms for efficient word stemming in
+        multiple languages.
+      - Offers parallel processing for batch stemming, providing significant
+        speedup for larger text sequences.
+      - Leverages the performance of Rust for fast, reliable text processing.
   license: MIT
   license_family: MIT
   license_file: LICENSE
